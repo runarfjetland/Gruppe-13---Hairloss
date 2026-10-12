@@ -23,7 +23,7 @@ for linjenr, linje in enumerate(fil,start=2):
                 dagerski += 1
         except ValueError:
             continue
-print (dagerski)
+print (f"{dagerski} dager med godkjent skiføre")
 
 
     
